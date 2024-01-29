@@ -35,6 +35,11 @@ about:
   license_family: Apache
   license_file: LICENSE
   summary: C99 implementation of huffman encoding/decoding
+  description: |
+    This is a cross-platform C99 implementation of compression algorithms such as gzip, and huffman 
+    encoding/decoding. Currently only huffman is implemented.
+  doc_url: https://github.com/awslabs/aws-c-compression
+  dev_url: https://github.com/awslabs/aws-c-compression
 
 extra:
   recipe-maintainers:
