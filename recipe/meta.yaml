@@ -1,5 +1,5 @@
 {% set name = "aws-c-compression" %}
-{% set version = "0.2.16" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/awslabs/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 044b1dbbca431a07bde8255ef9ec443c300fc60d4c9408d4b862f65e496687f4
+  sha256: d89fca17a37de762dc34f332d2da402343078da8dbd2224c46a11a88adddf754
 
 build:
   number: 0
@@ -36,7 +36,7 @@ about:
   license_file: LICENSE
   summary: C99 implementation of huffman encoding/decoding
   description: |
-    This is a cross-platform C99 implementation of compression algorithms such as gzip, and huffman 
+    This is a cross-platform C99 implementation of compression algorithms such as gzip, and huffman
     encoding/decoding. Currently only huffman is implemented.
   doc_url: https://github.com/awslabs/aws-c-compression
   dev_url: https://github.com/awslabs/aws-c-compression
