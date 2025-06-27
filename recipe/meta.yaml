@@ -10,7 +10,7 @@ source:
   sha256: d89fca17a37de762dc34f332d2da402343078da8dbd2224c46a11a88adddf754
 
 build:
-  number: 0
+  number: 1
   run_exports:
     - {{ pin_subpackage("aws-c-compression", max_pin="x.x.x") }}
 
@@ -20,7 +20,7 @@ requirements:
     - {{ compiler('c') }}
     - ninja-base
   host:
-    - aws-c-common 0.11.1
+    - aws-c-common 0.12.3
 
 test:
   commands:
